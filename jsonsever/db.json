@@ -1,0 +1,176 @@
+{
+  
+  "burgers": 
+  [
+    { 
+      "id": 1, 
+      "name": "Чизбургер", 
+     "imageUrl": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/recipes/perfect_cheeseburger_recipe/650x350_perfect_cheeseburger_recipe.jpg",
+     "ingradients": 
+      {
+        "meats":  [
+        {
+        "name": "Говядина",
+        "img" : "http://www.myasnov.ru/upload/iblock/367/367a9e34c5ffca0a9d75f2a93ae6b77e.png"
+       },           
+       {
+        "name": "Свинина",
+        "img" : "https://agropolit.com/media/news/o-o-w/00/11/11059/svinina-vnutrenniy-rynok-pererabotka-import-prognozy-15866.jpg" 
+       },
+       {
+         "name": "Баранина",
+        "img" : "https://edaplus.info/food_pictures/mutton.jpg"
+       } 
+     
+     ],
+     "souses":  [
+     {
+     "name": "Соус Кислосладкий",
+     "img" : "http://kenguru.od.ua/uploads/dishes/(mcdonalds)_sous_kislo_sladkij.png" 
+    },           
+    {
+     "name": "Соус Сырный",
+     "img" :  "http://www.calorizator.ru/sites/default/files/imagecache/product_512/product/sauce-14.jpg" 
+    },
+    {
+      "name": "Соус карри",
+     "img" : "http://eshka-rolly.ru/img/p/4/2/6/426-large_restaurant_default.jpg"
+    } 
+  ],
+"drinks": [
+     {
+     "name": "Кока-Кола",
+     "img" : "https://okwine.ua/files/product/full_coca-cola-0-25-zh-b.jpg"
+     
+    },	           
+    {
+     "name": "Фанта",
+     "img" : "https://digitalcontent.api.tesco.com/v1/media/ghs/snapshotimagehandler_384551760.jpeg?h=540&w=540"
+     
+    },
+    {
+      "name": "Спрайт",
+     "img" : "https://cdn.shopify.com/s/files/1/1511/0050/products/Sprite_1024x1024.png?v=1528134246"
+     
+    } 
+  ]
+    }
+  
+
+  
+      },
+      { 
+        "id": 2, 
+        "name": "bigTasty", 
+       "imageUrl": "https://www.thesun.co.uk/wp-content/uploads/2017/04/nintchdbpict000317625990.jpg",
+       "ingradients": 
+      {
+        "meats":  [
+        {
+        "name": "Говядина",
+        "img" : "http://www.myasnov.ru/upload/iblock/367/367a9e34c5ffca0a9d75f2a93ae6b77e.png"
+       },           
+       {
+        "name": "Свинина",
+        "img" : "https://agropolit.com/media/news/o-o-w/00/11/11059/svinina-vnutrenniy-rynok-pererabotka-import-prognozy-15866.jpg" 
+       },
+       {
+         "name": "Баранина",
+        "img" : "https://edaplus.info/food_pictures/mutton.jpg"
+       } 
+     
+     ],
+     "souses":  [
+     {
+     "name": "Салат Цезарь",
+     "img" : "https://st.vkuso.ru/data/cache/thumb/65/c9a2f0321df0865_600x400.jpg" 
+    },           
+    {
+     "name": "Наггетсы",
+     "img" :  "https://vkusnaja-zhisn.ru/wp-content/uploads/2016/11/%D0%BD%D0%B0%D0%B3%D0%B3%D0%B5%D1%82%D1%81%D1%8B-200%D0%B3-%D1%86%D0%B5%D0%BD%D0%B0-215-588x289.jpg" 
+    },
+    {
+      "name": "Мороженное",
+     "img" : "https://gotovim-doma.ru/images/recipe/1/7a/17a0eb2d1ef10596bdaa2a12ad372eca.jpg"
+    } 
+  ],
+"drinks": [
+     {
+     "name": "Кока-Кола",
+     "img" : "https://okwine.ua/files/product/full_coca-cola-0-25-zh-b.jpg"
+     
+    },	           
+    {
+     "name": "Фанта",
+     "img" : "https://digitalcontent.api.tesco.com/v1/media/ghs/snapshotimagehandler_384551760.jpeg?h=540&w=540"
+     
+    },
+    {
+      "name": "Спрайт",
+     "img" : "https://cdn.shopify.com/s/files/1/1511/0050/products/Sprite_1024x1024.png?v=1528134246"
+     
+    } 
+  ]
+    }
+    
+        },
+        { 
+          "id": 3, 
+          "name": "bigMac", 
+         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Big_Mac_hamburger.jpg",
+         "ingradients": 
+         {
+           "meats":  [
+           {
+           "name": "Говядина",
+           "img" : "http://www.myasnov.ru/upload/iblock/367/367a9e34c5ffca0a9d75f2a93ae6b77e.png"
+          },           
+          {
+           "name": "Свинина",
+           "img" : "https://agropolit.com/media/news/o-o-w/00/11/11059/svinina-vnutrenniy-rynok-pererabotka-import-prognozy-15866.jpg" 
+          },
+          {
+            "name": "Баранина",
+           "img" : "https://edaplus.info/food_pictures/mutton.jpg"
+          } 
+        
+        ],
+        "souses":  [
+        {
+        "name": "Американо",
+        "img" : "http://сакурадубна.рф/images/stories/virtuemart/product/%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D0%BE%20%D1%81%20%D0%BC%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BC8.jpg" 
+       },           
+       {
+        "name": "Зеленый чай",
+        "img" :  "https://24tv.ua/resources/photos/news/610x344_DIR/201705/817990.jpg?201905202601" 
+       },
+       {
+         "name": "Соус карри",
+        "img" : "http://eshka-rolly.ru/img/p/4/2/6/426-large_restaurant_default.jpg"
+       } 
+     ],
+   "drinks": [
+        {
+        "name": "Кока-Кола",
+        "img" : "https://okwine.ua/files/product/full_coca-cola-0-25-zh-b.jpg"
+        
+       },	           
+       {
+        "name": "Фанта",
+        "img" : "https://digitalcontent.api.tesco.com/v1/media/ghs/snapshotimagehandler_384551760.jpeg?h=540&w=540"
+        
+       },
+       {
+         "name": "Спрайт",
+        "img" : "https://cdn.shopify.com/s/files/1/1511/0050/products/Sprite_1024x1024.png?v=1528134246"
+        
+       } 
+     ]
+       }
+      
+          }
+      
+    ]
+    
+
+}
