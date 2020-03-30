@@ -17,15 +17,16 @@ const addBurgerSettingsRequestFail = payload => ({
     payload
 })
 
-export  const burgerSettingsAction = payload => {
-    
+export  const burgerSettingsAction = async (payload) => {
     return dispatch => {
         dispatch(addBurgerSettingsRequest())
-        axios.get(`http://localhost:3000/burgers?name=${payload}`)
-            .then(res =>
-                setTimeout(() => dispatch(addBurgerSettingsRequestSuccess(res)), 1000))
-            .catch(err =>
-                dispatch(addBurgerSettingsRequestFail(err)))
+        try{
+            const res = await axios.get(`http://localhost:3000/burgers?name=${payload}`)            
+            setTimeout(() => dispatch(addBurgerSettingsRequestSuccess(res)), 1000)
+        }catch(e){
+            dispatch(addBurgerSettingsRequestFail(e))
+        }
+                
     }
 }
 
