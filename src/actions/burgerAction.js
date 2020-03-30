@@ -15,14 +15,14 @@ const addNewBurgerRequestFail = payload => ({
     payload
 })
 
-export const burgerAction = payload => {
+export const burgerAction = async (payload) => {
     return dispatch => {
         dispatch(addNewBurgerRequest())
-        fetch("http://localhost:3000/burgers")
-            .then(res => res.json())
-            .then(res =>
-                setTimeout(() => dispatch(addNewBurgerRequestSuccess(res)), 1000))
-            .catch(err =>
-                dispatch(addNewBurgerRequestFail(err)))
+        try{
+            const res = await fetch("http://localhost:3000/burgers")
+                setTimeout(() => dispatch(addNewBurgerRequestSuccess(res)), 1000)
+        }catch(e){
+            dispatch(addNewBurgerRequestFail(e))
+        }      
     }
 }
