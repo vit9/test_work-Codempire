@@ -16,7 +16,6 @@ const addBurgerSettingsRequestFail = payload => ({
     type: types.GET_BURGER_SETTINGS_FAIL,
     payload
 })
-
 export  const burgerSettingsAction = async (payload) => {
     return dispatch => {
         dispatch(addBurgerSettingsRequest())
