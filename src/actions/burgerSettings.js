@@ -2,10 +2,12 @@ import * as types from '../contstants/actionTypes';
 
 const axios = require('axios')
 
+
 const addBurgerSettingsRequest = payload => ({
     type: types.GET_BURGER_SETTINGS,
     payload
 })
+
 
 const addBurgerSettingsRequestSuccess = payload => ({
     type: types.GET_BURGER_SETTINGS_SUCCESS,
