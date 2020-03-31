@@ -4,7 +4,6 @@ const addNewBurgerRequest = payload => ({
     type: types.GET_BURGER,
     payload
 })
-
 const addNewBurgerRequestSuccess = payload => ({
     type: types.GET_BURGER_SUCCESS,
     payload
