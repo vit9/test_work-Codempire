@@ -7,6 +7,7 @@ const initState = {
     showModalWindow: false,
     error: null,
   };
+
   
 export default (state = initState, {type, payload} ) => {
    
