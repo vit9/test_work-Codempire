@@ -15,7 +15,6 @@ const addNewBurgerRequestFail = payload => ({
 })
 
 
-
 export const burgerAction = async (payload) => {
     return dispatch => {
         dispatch(addNewBurgerRequest())
