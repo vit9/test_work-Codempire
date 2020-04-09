@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import RenderBurger from '../components/renderBurgers'
 
-
 import { burgerAction } from "../actions/burgerAction"
 
 import { connect } from 'react-redux';
